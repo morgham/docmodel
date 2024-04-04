@@ -1,0 +1,92 @@
+body {
+	font-family: Roboto;
+	font-size: 16px;
+	line-height: 1.5;
+	
+	background-color: #ffffff;
+	color: #47353A;
+
+	width: 100vw;
+	height: 100vh;
+}
+
+canvas {
+	position: fixed;
+	top: 100;
+	left: 0;
+	vertical-align: bottom;
+}
+
+a {
+	text-decoration: none;
+	color: #47353A;
+}
+
+section {
+	overflow: hidden;
+	position: fixed;
+}
+
+header {
+	padding: 20px 30px;
+	overflow: hidden;
+}
+
+header h1 img {
+	float: left;
+	height: 40px;
+}
+
+header h1 {
+	float: left;
+	margin-left: 12px;
+	font-weight: 700;
+}
+
+header nav {
+	float: right;
+	margin-top: 8px;
+}
+
+header nav a {
+	color: #47353A;
+	text-decoration: none;
+	margin-left: 12px;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.highlight {
+	position: absolute;
+	top: 100px;
+	left: 40px;
+	z-index: 100;
+}
+
+.highlight h2 {
+	font-weight: 700;
+	color: #2d9e5f;
+}
+
+.highlight p {
+	width: 400px;
+}
+
+.exhibition-list {
+	position: absolute;
+	top: 100px;
+	right: 40px;
+	z-index: 1000;
+}
+
+.exhibition-list a {
+	display: block;
+	text-align: right;
+}
+
+.exhibition-list h2 {
+	text-align: right;
+	font-weight: 700;
+	color: #2d9e5f;
+}
+S

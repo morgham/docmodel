@@ -1,0 +1,175 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 1.5;
+
+  background-color: #efefef;
+  color: #47353A;
+  overflow-x: hidden;
+}
+
+i {
+  font-weight: 700;
+  font-style: italic;
+}
+
+b {
+  font-weight: 700;
+  color: #2d9e5f;
+}
+
+button:disabled,
+button[disabled]{
+  color: white;
+  font-weight: 700
+}
+
+header {
+  padding: 20px 30px;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+header h1 img {
+  float: left;
+  height: 40px;
+}
+
+header h1 {
+  float: left;
+  margin-left: 12px;
+  font-weight: 700;
+}
+
+header nav {
+  float: right;
+  margin-top: 8px;
+}
+
+header nav a {
+  color: #47353A;
+  text-decoration: none;
+  margin-left: 12px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+section {
+  overflow: hidden;
+  padding: 20px;
+}
+
+#text {
+  margin-bottom: 20px;
+  font-size: 24pt;
+}
+
+.text-body,
+.text-body-explain {
+  background-color: #ffffff;
+  width: 80vw;
+  padding: 40px;
+  border-radius: 25px;
+  display: block;
+}
+
+/* Pat edit */
+.text-body p {
+  display: none;
+}
+
+.buttons {
+  padding: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border-radius: 25px;
+}
+
+.btn {
+  padding: 40px;
+  border: none;
+  border-radius: 25px;
+  font-size: 12pt;
+  background-color: #efefef;
+}
+
+.refresh-button {
+  margin-top: 20px;
+  padding: 40px;
+  border: none;
+  border-radius: 25px;
+  font-size: 12pt;
+  display: block;
+  background-color: #efefef;
+}
+
+
+.author {
+	display: block;
+	background-color: #ffffff;
+	padding: 20px;
+	margin: 20px;
+}
+
+.author img {
+	height: 250px;
+	padding: 20px;
+	border-radius: 15%;
+}
+
+.author p {
+	padding: 20px;
+}
+
+
+.object,
+.object-lone,
+.object-lone-doc,
+.object-lone-cod,
+.disseminate,
+.discern,
+.object-collab-doc,
+.object-collab-cod,
+.enrich,
+.amplify,
+.audience,
+.audience-lone,
+.audience-lone-doc,
+.audience-lone-cod,
+.audeince-collab,
+.audience-collab-doc,
+.audience-collab-cod,
+.mediate,
+.inspire,
+.empower,
+.act {
+  display: none;
+}
+
+.focus.open,
+.object.open,
+.object-lone.open,
+.object-lone-doc.open,
+.object-lone-cod.open,
+.disseminate.open,
+.discern.open,
+.object-collab-doc.open,
+.object-collab-cod.open,
+.enrich.open,
+.amplify.open,
+.audience.open,
+.audience-lone.open,
+.audience-lone-doc.open,
+.audience-lone-cod.open,
+.audeince-collab.open,
+.audience-collab-doc.open,
+.audience-collab-cod.open,
+.mediate.open,
+.inspire.open,
+.empower.open,
+.act.open {
+  display: block;
+}
