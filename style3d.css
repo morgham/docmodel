@@ -22,6 +22,21 @@ a {
 	color: #47353A;
 }
 
+b {
+	font-weight: 700;
+}
+
+i {
+	font-style: italic;
+}
+
+hr { 
+	width:100%; 
+	height:1px; 
+	background: #fff;
+
+}
+
 section {
 	overflow: hidden;
 	position: fixed;

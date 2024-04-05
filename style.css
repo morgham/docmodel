@@ -75,6 +75,10 @@ section {
   display: block;
 }
 
+.text-small {
+	margin-bottom: 20px;
+}
+
 /* Pat edit */
 .text-body p {
   display: none;

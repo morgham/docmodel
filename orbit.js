@@ -221,11 +221,19 @@ const empower = document.querySelector('#exempower')
 const act = document.querySelector('#exact')
 
 const exTitle = document.querySelector("#ex-title")
+const exEquation = document.querySelector("#ex-equation")
 const paragraph = document.querySelector("#ex-content")
+const chap2 = document.querySelector("#ex-chap2")
+const chap3 = document.querySelector("#ex-chap3")
+const chap4 = document.querySelector("#ex-chap4")
 
 diss.addEventListener('click', function (event) {
-  exTitle.innerHTML = "Exhibitions that disseminate"
-  paragraph.innerHTML = "Exhibitions that disseminate are lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
+  exTitle.innerHTML = "Exhibitions that disseminate";
+  exEquation.innerHTML = "Object (x) + Lone Creative (y) + Democratization of Culture (z) = <b>Disseminate</b>";
+  paragraph.innerHTML = "<b>Chapter 10:</b> Traditional Practice That Disseminates: <i>Native Brazil/Alien Brazil</i> by Anna Bella Geiger, Peter Aerts, and Aline Van Nereuax";
+  chap2.innerHTML = "<b>Chapter 11:</b><i>Something's Off</i>: Reconsidering Traditional Practice by Michelle Sunset";
+
+  
   const material = new THREE.MeshLambertMaterial({
     color: new THREE.Color(0x2d9e5f)
   })
@@ -249,7 +257,10 @@ diss.addEventListener('click', function (event) {
 
 discern.addEventListener('click', function (event) {
   exTitle.innerHTML = "Exhibitions that disern"
-  paragraph.innerHTML = "Exhibitions that discern are lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
+  exEquation.innerHTML = "Object (x) + Lone Creative (y) + Cultural Democracy (z) = <b>Discern</b>"
+  paragraph.innerHTML = "<b>Chapter 12:</b> Discerning the Cryosphere: Humans and Climate Art from the Fances Lehman Loeb Art Center, Vassar College, by Elizabeth Nogrady"
+  chap2.innerHTML = "<b>Chapter 13:</b> Discerning with a Good Voice: <i>H&#243;wa&#353;te at the Heritage Center</i> by Ashley Pourier and Audrey Jacobs";
+
 
  const material = new THREE.MeshLambertMaterial({
     color: new THREE.Color(0x2d9e5f)
@@ -274,7 +285,9 @@ discern.addEventListener('click', function (event) {
 
 enrich.addEventListener('click', function (event) {
   exTitle.innerHTML = "Exhibitions that enrich"
-  paragraph.innerHTML = "Exhibitions that enrich are lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
+  exEquation.innerHTML = "Object (x) + Collaborative (y) + Democratization of Culture (z) = <b>Enrich</b>"
+  paragraph.innerHTML = "<b>Chapter 14:</b> Not Just Dissemination, an Enriched Experience: <i>Ming Dynasty Costume</i> Exhibition, by Xiaonan Jiang and Xuejing Dai"
+  chap2.innerHTML = "<b>Chapter 15:</b> <i>SKIN</i>, a Multisensory Art Exhibition for Children Aged Eight and Older and Their Families, by Stefanie Metsemakers and Gerd Dierckx";
 
   const material = new THREE.MeshLambertMaterial({
     color: new THREE.Color(0x2d9e5f)
@@ -299,7 +312,9 @@ enrich.addEventListener('click', function (event) {
 
 amplify.addEventListener('click', function (event) {
   exTitle.innerHTML = "Exhibitions that amplify"
-  paragraph.innerHTML = "Exhibitions that amplify are lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
+  exEquation.innerHTML = "Object (x) + Collaborative (y) + Cultural Democracy (z) = <b>Amplify</b>"
+  paragraph.innerHTML = "<b>Chapter 16:</b> Challenging Romaphobia: The Case of a Romanian Carnival MAsk at Mucem, by Julia Ferloni and Emilie Sitzia"
+  chap2.innerHTML = "<b>Chapter 17:</b> <i>Lock & Key Creative Expression Lab:</i>, A Curated Space During the Pandemic, by Ashley Hartman, Melanie Rosato, and Nacy Azria";
 
     const material = new THREE.MeshLambertMaterial({
     color: new THREE.Color(0x2d9e5f)
@@ -324,7 +339,10 @@ amplify.addEventListener('click', function (event) {
 
 mediate.addEventListener('click', function (event) {
   exTitle.innerHTML = "Exhibitions that mediate"
-  paragraph.innerHTML = "Exhibitions that mediate are lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
+  exEquation.innerHTML = "Audience (x) + Lone Creative (y) + Democratization of Culture (z) = <b>Mediate</b>"
+  paragraph.innerHTML = "<b>Chapter 18:</b> <i>The Same Four Walls:</i>Inspiration and Reflection During a Global Pandemic, by Lesley Marchessault"
+  chap2.innerHTML = "<b>Chapter 19:</b> SCREEN IT: A Mediation-Driven Approach to Art, Technology, and Audiences, by Pieter Jan Valgaeren";
+  
     const material = new THREE.MeshLambertMaterial({
     color: new THREE.Color(0x2d9e5f)
   })
@@ -349,7 +367,9 @@ mediate.addEventListener('click', function (event) {
 
 inspire.addEventListener('click', function (event) {
   exTitle.innerHTML = "Exhibitions that inspire"
-  paragraph.innerHTML = "Exhibitions that inspire are lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
+  exEquation.innerHTML = "Audience (x) + Lone Creatie (y) + Cultural Democracy (z) = <b>Inspire</b>"
+  paragraph.innerHTML = "<b>Chapter 20:</b> <i>The Boneyard:</i> Inspiring Through In-Gallery Artist Demonstrations"
+  chap2.innerHTML = "<b>Chapter 21:</b> <i>There Is No Planet B!</i> An Audience Participation Project Meant to Inspire, by Aline Van Nereaux";
 
     const material = new THREE.MeshLambertMaterial({
     color: new THREE.Color(0x2d9e5f)
@@ -375,7 +395,9 @@ inspire.addEventListener('click', function (event) {
 
 empower.addEventListener('click', function (event) {
   exTitle.innerHTML = "Exhibitions that empower"
-  paragraph.innerHTML = "Exhibitions that empower are lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
+  exEquation.innerHTML = "Audience (x) + Collaborative (y) + Democratization of Culture (z) = <b>Empower</b>"
+  paragraph.innerHTML = "<b>Chapter 22:</b>  EmPOWER: Learning from Our Youngest Community Members at the Clyfford Still Museum, by Nicole Cromartie and Bailey H. Placzek"
+  chap2.innerHTML = "<b>Chapter 23:</b> <i>Anybody Home?</i> by Roselyne Francken and Tammy Wille";
 
     const material = new THREE.MeshLambertMaterial({
     color: new THREE.Color(0x2d9e5f)
@@ -400,7 +422,9 @@ empower.addEventListener('click', function (event) {
 
 act.addEventListener('click', function (event) {
   exTitle.innerHTML = "Exhibitions that act"
-  paragraph.innerHTML = "Exhibitions that act are lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
+  exEquation.innerHTML = "Audience (x) + Collaborative (y) + Cultural Democracy (z) = <b>Act</b>"
+  paragraph.innerHTML = "<b>Chapter 24:</b> Collaborative Reach of a Site-Specific Exhibition That Addresses School Segregation, by Katie Fuller and Patricia O'Rourke"
+  chap2.innerHTML = "<b>Chapter 25:</b> <i>Boundless Hospitality:</i> M from a Different Perspective, by Sofie Vermeiren";
 
     const material = new THREE.MeshLambertMaterial({
     color: new THREE.Color(0x2d9e5f)
